@@ -65,12 +65,12 @@ DOL是一个能让自动化应用映射到多处理器上的结构平台。
     * 进入该文件夹objdir  
      `cd objdir`
     * 运行configure(能根据系统的环境设置一下参数，用于编译)  
-     `sudo ../configure CXX=g++ --disable-async-updates`
-    ![](http://thumbnail0.baidupcs.com/thumbnail/058967018f57c820e94c9725cee7d4d4?fid=4036257400-250528-353692960939228&time=1474948800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-PnWGUpi85Xaixiuf9MSnF4PJO%2BI%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6274570426391527105&dp-callid=0&size=c710_u400&quality=100)
+     `sudo ../configure CXX=g++ --disable-async-updates`  
+     ![](http://thumbnail0.baidupcs.com/thumbnail/058967018f57c820e94c9725cee7d4d4?fid=4036257400-250528-353692960939228&time=1474948800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-PnWGUpi85Xaixiuf9MSnF4PJO%2BI%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6274570426391527105&dp-callid=0&size=c710_u400&quality=100)
     * 编译  
      `sudo make install`
     * 记录当前的工作路径  
-     `sudo pwd`
+     `sudo pwd`  
     ![](http://thumbnail0.baidupcs.com/thumbnail/e62b0bf7dd0feff5ed6fa83e0092e165?fid=4036257400-250528-41554521776826&time=1474948800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-%2Bk%2F%2Bc6Bc7c6%2Beh16ldB%2BrBavMe4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6274586190527705542&dp-callid=0&size=c710_u400&quality=100)
  5. 编译dol
     * 进入刚刚dol的文件夹  
@@ -86,8 +86,8 @@ DOL是一个能让自动化应用映射到多处理器上的结构平台。
     * 进入build/bin/mian路径下  
      `cd build/bin/main`
     * 运行第一个例子  
-     `sudo ant -f runexample.xml -Dnumber=1`
-![](http://thumbnail0.baidupcs.com/thumbnail/bf867feee646440209d4de55e82c3bf7?fid=4036257400-250528-649325846534931&time=1474948800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-cS226Iqg3aOqRNybnxn4h%2BAOiIs%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6274603045582064106&dp-callid=0&size=c710_u400&quality=100)
+     `sudo ant -f runexample.xml -Dnumber=1`  
+    ![](http://thumbnail0.baidupcs.com/thumbnail/bf867feee646440209d4de55e82c3bf7?fid=4036257400-250528-649325846534931&time=1474948800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-cS226Iqg3aOqRNybnxn4h%2BAOiIs%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6274603045582064106&dp-callid=0&size=c710_u400&quality=100)
 
 ---
 ##实验感想
