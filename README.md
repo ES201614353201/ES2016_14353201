@@ -66,12 +66,12 @@ DOL是一个能让自动化应用映射到多处理器上的结构平台。
      `cd objdir`
     * 运行configure(能根据系统的环境设置一下参数，用于编译)  
      `sudo ../configure CXX=g++ --disable-async-updates`
-    [结果图](http://yun.baidu.com/share/link?shareid=2114761651&uk=2533959007)
+    ![结果图](http://yun.baidu.com/share/link?shareid=2114761651&uk=2533959007)
     * 编译  
      `sudo make install`
     * 记录当前的工作路径  
      `sudo pwd`
-    [结果图](http://yun.baidu.com/share/link?shareid=2156269802&uk=2533959007)
+    ![结果图](http://yun.baidu.com/share/link?shareid=2156269802&uk=2533959007)
  5. 编译dol
     * 进入刚刚dol的文件夹  
      `cd ../dol`
@@ -87,7 +87,7 @@ DOL是一个能让自动化应用映射到多处理器上的结构平台。
      `cd build/bin/main`
     * 运行第一个例子  
      `sudo ant -f runexample.xml -Dnumber=1`
-[结果图](http://yun.baidu.com/share/link?shareid=3798913449&uk=2533959007)
+![结果图](http://yun.baidu.com/share/link?shareid=3798913449&uk=2533959007)
 
 ---
 ##实验感想
