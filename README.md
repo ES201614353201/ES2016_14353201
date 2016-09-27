@@ -17,14 +17,17 @@ DOL是一个能让自动化应用映射到多处理器上的结构平台。
     1. 安装ant
         * 从官网下载ant安装包
         * tar -xf apache-ant-1.8.2-bin.tar.gz解压
-        * 将文件移动到/opt/下：sudo mv apache-ant-1.8.2 /opt/
-        * 配置环境变量：sudo gedit /etc/profile，在原来基础上添加以下蓝体字：
-     `export ANT_HOME=/opt/apache-ant-1.8.2`
+        * 将文件移动到/opt/下：  
+         `sudo mv apache-ant-1.8.2 /opt/`
+        * 配置环境变量：  
+         `sudo gedit /etc/profile`
+          在原来基础上添加以下蓝体字：  
+         `export ANT_HOME=/opt/apache-ant-1.8.2`
     2. 安装jdk-8u40-linux-x64.gz
-        * 将安装包解压到 /usr/lib/java
-         `cd /usr/lib`
-         `sudo mkdir java`
-        * 进入安装包下载所在路径
+        * 将安装包解压到 /usr/lib/java  
+         `cd /usr/lib`  
+`sudo mkdir java`
+        * 进入安装包下载所在路径  
          `sudo tar zxvf ./jdk-8u40-linux-x64.gz -C /usr/lib/java`
         * 重命名为jdk8
          `cd /usr/lib/java`
